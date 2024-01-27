@@ -5,7 +5,7 @@ public class TestClass1 {
 	public static void main(String[] args) {
 		
 		
-		System.out.println("Test GIT_UPDATE_1");
+		System.out.println("Test GIT");
 		
 	}
 
