@@ -6,7 +6,7 @@ public class TestClass1 {
 		
 		
 		System.out.println("Test GIT2");
+		System.out.println("New Line from Exclipse Workspace");
 		
 	}
-
 }
