@@ -1,26 +1,24 @@
 package interface_discussion;
 
-public class C2{
+public class C2 implements TestInt3{
 
-	
-	public void m3() {
-		
-		System.out.println("m3 method of C2");
+
+
+	@Override
+	public void m3() {     // method of TestInt2
+		// TODO Auto-generated method stub
 		
 	}
-	
 
-	
-	public static void main(String[] args) {
+	@Override
+	public void m5() {    // method of TestInt2
+		// TODO Auto-generated method stub
 		
-		
-		C2 c = new C2();
+	}
 
-
-		
-		
-		
-		
+	@Override
+	public void m9() {     // method of TestInt3
+		// TODO Auto-generated method stub
 		
 	}
 	

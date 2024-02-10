@@ -2,6 +2,7 @@ package abstract_discussion;
 
 public abstract class AB1 {
 	
+	int a = 10;
 	
 	public AB1()
 	{
