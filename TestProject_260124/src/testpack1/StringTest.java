@@ -5,7 +5,7 @@ import java.security.PublicKey;
 public class StringTest {
 	
 
-	
+	static int a = 10;
 	
 	
 	
