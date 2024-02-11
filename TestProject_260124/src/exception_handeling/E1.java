@@ -4,20 +4,25 @@ public class E1 {
 	
 	
 	
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		
 		
 		int a  = 10;
 		int b = 0;
 		
-		
 		System.out.println("Before Exception Handelling");
+//		int z = a + b;
+//		System.out.println(z);
 		
 		try 
 		{
 			int c = a/b;    // risky code 
+			
+			System.out.println("");
+			
+			
 		}
-		catch (ArrayIndexOutOfBoundsException e) 
+		catch (Throwable e) 
 		{
 			System.out.println(" Exception Found : " + e.getMessage());
 		}
@@ -25,8 +30,12 @@ public class E1 {
 		{
 			System.out.println("Finally block running.");  // cleanup activities
 		}
+	
 		
-		System.out.println("After Exception Handelling");
+//		Thread.sleep(5000); // 5 seconds   // multi-threading
+		
+		
+		System.out.println("After Exception Handling");
 		
 		
 		
